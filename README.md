@@ -1,5 +1,5 @@
 <h1 align="center">
-	<img alt="GoStack" src=".github/frontend/src/assets/logo.svg" width="200px" />
+	<img src="https://github.com/JosephMartins/be-the-hero/blob/master/frontend/src/assets/logo.svg" width="200px" />
 </h1>
 
 <h3 align="center">
