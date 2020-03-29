@@ -1,4 +1,6 @@
-
+<h1 align="center">
+	<img alt="GoStack" src=".github/GoStackLogo.png" width="200px" />
+</h1>
 
 <h3 align="center">
   Be The Hero
