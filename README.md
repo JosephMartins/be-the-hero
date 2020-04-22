@@ -53,40 +53,40 @@ SQLite,usamos celebrate para as validações da requisição,e Jest para Test-dr
 
 <h4 align="center">Rotas</h4>
 
-'/sessions' - POST
+`/sessions` - POST
 ```
   Recebe no body um id referente a um ONG, busca no banco de dados a Ong e retorna a Ong que 
   pertence a esse id,usada para fazer o login da sessão de uma ong.
 ```
-'/profile' - GET
+`/profile` - GET
 ```
   Usada para listagem de dados na Web.
   Recebe uma authorization em seu Header e retorna os casos cadastrados de uma ONG específica.
 ```
 
-'/incidents' - GET
+`/incidents` - GET
 ```
   Usada para listagem de dados no Mobile.
   Recebe um query param que define a página que o usuario está,e retorna todos os casos.
 ```
-'/incidents/:id' - DELETE
+`/incidents/:id` - DELETE
 ```
   Recebe um route param que informa o id do caso a ser deletado.
 ```
 
-'/incidents' - POST
+`/incidents` - POST
 ```
   Usada para criar um novo caso
   Recebe no body: title,description,value,
   Retorna o id do caso criada.
 ```
 
-'/ongs' - GET
+`/ongs` - GET
 ```
   Retorna todas as ongs cadastradas
 ```
 
-'/ongs' - POST
+`/ongs` - POST
 ```
   Usada para cadastrar uma nova ONG.
   Recebe no body: name,email,whatsapp,city,uf.
